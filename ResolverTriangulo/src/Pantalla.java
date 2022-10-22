@@ -1,4 +1,4 @@
-package ResolverTriangulo.src;
+package resolverTriangulo.src;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -6,8 +6,8 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import ResolverTriangulo.src.Components.CajaDatos;
-import ResolverTriangulo.src.Components.GridDatos;
+import resolverTriangulo.src.Components.CajaDatos;
+import resolverTriangulo.src.Components.GridDatos;
 
 public class Pantalla extends JFrame{
     JPanel fondo, display, bottomPanel;
@@ -23,7 +23,7 @@ public class Pantalla extends JFrame{
 
 
     public Pantalla(){
-        setIconImage(new ImageIcon(getClass().getResource("/triangulo/icon/logoTriangule.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/resolverTriangulo/icon/logoTriangule.png")).getImage());
         setTitle("Resolver Triangulo");
         setSize(500, 350);
         setLocationRelativeTo(null);

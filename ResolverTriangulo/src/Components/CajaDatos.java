@@ -1,4 +1,4 @@
-package ResolverTriangulo.src.Components;
+package resolverTriangulo.src.Components;
 
 import javax.swing.JTextField;
 import java.awt.event.*;

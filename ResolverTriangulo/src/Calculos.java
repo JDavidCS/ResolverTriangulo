@@ -8,7 +8,7 @@
 
  */
 
-package ResolverTriangulo.src;
+package resolverTriangulo.src;
 
 import javax.swing.JOptionPane;
 
@@ -75,7 +75,7 @@ public class Calculos {
             }
         }
         if(NaN){
-            JOptionPane.showMessageDialog(null, "ERROR \nCon los datos dados no se puede formar un triangulo\n");
+            JOptionPane.showMessageDialog(null, "ERROR \nCon los datos dados no se puede formar un resolverTriangulo\n");
         }
     }
 
